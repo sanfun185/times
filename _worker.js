@@ -1,4 +1,4 @@
-// @ts-ignore
+// @times
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
@@ -18,15 +18,15 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv4.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv6.txt', //IPv6优选内容格式 自行搭建。
+	'https://raw.githubusercontent.com/sanfun185/times/main/ipv4.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/sanfun185/times/main/ipv6.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:443#t.me/AM_CLUBS',//官方优选域名
-	//'cloudflare.cfgo.cc:443#关注YouTube频道@AM_CLUB',
-	'visa.com:443#youtube.com/@AM_CLUB'
+	'icook.tw:443#',//官方优选域名
+	//'cloudflare.cfgo.cc:443#',
+	'visa.com:443#'
 ];
 
 let autoaddress = [
@@ -35,8 +35,8 @@ let autoaddress = [
 	'visa.com:443'
 ];
 
-let FileName = 'ansoncloud8.github.io';
-let tagName = 'youtube.com/@am_club'
+let FileName = 'times';
+let tagName = 'timesone'
 let SUBUpdateTime = 6;
 let total = 99;//PB
 //let timestamp = now;
